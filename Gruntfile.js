@@ -152,7 +152,8 @@ module.exports = function (grunt) {
         sass: {
             options: {
                 includePaths: [
-                    'bower_components'
+                    'bower_components',
+                    require('node-bourbon').includePaths
                 ]
             },
             dist: {
