@@ -4,6 +4,7 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import 'bourbon';
 
 @include font-face(sincity, 'fonts/Sin City');
+@include font-face(bluheadstudio, 'fonts/BluHead Studio - Churchward Heading Bold');
 
 body {
   background: #000;
@@ -20,12 +21,14 @@ body {
 /* Custom page header */
 .header {
 
-  /* Make the masthead heading the same height as the navigation */
   h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    color: #777777;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: bluheadstudio;
+    font-size: 22px;
   }
 }
 
@@ -50,10 +53,6 @@ body {
     font-family : sincity;
     color : #fff;
   }
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
 }
 
 /* Supporting marketing content */
@@ -65,9 +64,13 @@ body {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $screen-sm-min) {
   .container {
     max-width: 730px;
+  }
+
+  .header h3 {
+    font-size: 36px;
   }
 
   /* Remove the padding we set earlier */
@@ -78,13 +81,15 @@ body {
     padding-right: 0;
   }
 
-  /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+
+  @media screen and (min-width: $screen-md-max) {
+
   }
 }
