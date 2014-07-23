@@ -4,18 +4,29 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import 'bourbon';
 
 @include font-face(sincity, 'fonts/Sin City');
-@include font-face(bluheadstudio, 'fonts/BluHead Studio - Churchward Heading Bold');
+@include font-face(bluheadstudio, 'fonts/BluHeadStudio');
+@include font-face(blambot, 'fonts/BlambotBold');
 
 body {
   background: #000;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
-.marketing,
+.profile,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.row {
+  margin : 30px 0 0 0;
+}
+
+.profile {
+  h4,h3 {
+    font-family : blambot;
+  }
+  border: 10px solid #fff;
 }
 
 /* Custom page header */
@@ -36,38 +47,34 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {
   margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
   background: none;
   padding: 40px 0;
   h1 {
     @include transform(rotate(-16deg));
-    font-family : sincity;
-    color : #fff;
+    font-family: sincity;
+    color: #fff;
+  }
+  h4 {
+    @include transform(rotate(-16deg));
+    font-family: blambot;
+    color: #fff;
+    font-size: 14px;
   }
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-  p + h4 {
-    margin-top: 28px;
-  }
-}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: $screen-sm-min) {
-  .container {
-    max-width: 730px;
-  }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
 
   .header h3 {
     font-size: 36px;
@@ -75,7 +82,7 @@ body {
 
   /* Remove the padding we set earlier */
   .header,
-  .marketing,
+  .profile,
   .footer {
     padding-left: 0;
     padding-right: 0;
@@ -87,9 +94,16 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+    h4 {
+      font-size: 18px;
+    }
   }
+}
 
-  @media screen and (min-width: $screen-md-max) {
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
 
-  }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
 }
