@@ -50,39 +50,52 @@
 
 <div class="container">
 
-  <div class="row">
-    <div class="col-md-6">
+  <div class="row" ng-repeat="(index, girl) in profile.girls">
+    <div class="col-md-6" ng-show="index % 2 == 0">
       <div class="profile text">
-
-      <h3>Gemma</h3>
-      <p>The birthday girl her self! Very excited about the wine tour this year after recently
-        acquiring a strong apprectiation if Pino t Noir and will be as partying as hard as anyone
-        if not the hardest!</p>
-        <p>
-        Just don’t get in her way when shes eating cheese burgers or she’ll bite your face off.</p>
-      <h4>Strengths</h4>
-      <ul>
-        <li>Heating up frozen sausie rolls and party pies</li>
-        <li>Smashing shot glasses on bars</li>
-      </ul>
-      <h4>Weaknesses</h4>
-      <ul>
-        <li>Falling over for no reason</li>
-        <li>Smashing her iphone screen</li>
-      </ul>
-
+        <h3>{{girl.name}}</h3>
+        <p>{{girl.description}}</p>
+        <h4>Strengths</h4>
+        <ul>
+          <li ng-repeat="strength in girl.strengths">{{strength}}</li>
+        </ul>
+        <h4>Weaknesses</h4>
+        <ul>
+          <li ng-repeat="weakness in girl.weaknesses">{{weakness}}</li>
+        </ul>
       </div>
-
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" ng-show="index % 2 == 0">
       <div class="profile">
-        <img class="img-responsive" src="images/gem.png" alt="Gem"/>
+        <img class="img-responsive" ng-src="{{girl.photo}}" alt=""/>
       </div>
     </div>
+
+    <div class="col-md-6" ng-show="index % 2 == 1">
+      <div class="profile">
+        <img class="img-responsive" ng-src="{{girl.photo}}" alt=""/>
+      </div>
+    </div>
+
+    <div class="col-md-6" ng-show="index % 2 == 1">
+      <div class="profile text">
+        <h3>{{girl.name}}</h3>
+        <p>{{girl.description}}</p>
+        <h4>Strengths</h4>
+        <ul>
+          <li ng-repeat="strength in girl.strengths">{{strength}}</li>
+        </ul>
+        <h4>Weaknesses</h4>
+        <ul>
+          <li ng-repeat="weakness in girl.weaknesses">{{weakness}}</li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 
   <div class="footer">
-    <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+    <p><span class="glyphicon glyphicon-heart"></span> from Karl</p>
   </div>
 
 </div>
