@@ -69,6 +69,22 @@
     </div>
   </div>
 
+  <div class="boys">
+
+    <div class="row" ng-repeat="(index, girl) in profile.boys">
+
+      <div class="col-md-6">
+        <text-profile ng-show="index % 2 == 0"></text-profile>
+        <photo-profile ng-show="index % 2 == 1"></photo-profile>
+      </div>
+      <div class="col-md-6">
+        <photo-profile ng-show="index % 2 == 0"></photo-profile>
+        <text-profile ng-show="index % 2 == 1"></text-profile>
+      </div>
+
+    </div>
+  </div>
+
   <div class="footer">
     <p><span class="glyphicon glyphicon-heart"></span> from Karl</p>
   </div>

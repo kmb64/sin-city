@@ -25,6 +25,7 @@ angular.module('gemsApp', [])
     var profilePromise = profileService().getProfiles();
     profilePromise.then(function(response){
       $scope.profile.girls = response.data.girls;
+      $scope.profile.boys = response.data.boys;
     }, function(){
       console.log('Failed to retrieve profiles.');
     });
