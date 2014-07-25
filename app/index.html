@@ -48,50 +48,25 @@
   <h2>The Girls</h2>
 </div>
 
+
+
+
 <div class="container">
 
-  <div class="row" ng-repeat="(index, girl) in profile.girls">
-    <div class="col-md-6" ng-show="index % 2 == 0">
-      <div class="profile text">
-        <h3>{{girl.name}}</h3>
-        <p>{{girl.description}}</p>
-        <h4>Strengths</h4>
-        <ul>
-          <li ng-repeat="strength in girl.strengths">{{strength}}</li>
-        </ul>
-        <h4>Weaknesses</h4>
-        <ul>
-          <li ng-repeat="weakness in girl.weaknesses">{{weakness}}</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-6" ng-show="index % 2 == 0">
-      <div class="profile">
-        <img class="img-responsive" ng-src="{{girl.photo}}" alt=""/>
-      </div>
-    </div>
+  <div class="girls">
 
-    <div class="col-md-6" ng-show="index % 2 == 1">
-      <div class="profile">
-        <img class="img-responsive" ng-src="{{girl.photo}}" alt=""/>
-      </div>
-    </div>
+    <div class="row" ng-repeat="(index, girl) in profile.girls">
 
-    <div class="col-md-6" ng-show="index % 2 == 1">
-      <div class="profile text">
-        <h3>{{girl.name}}</h3>
-        <p>{{girl.description}}</p>
-        <h4>Strengths</h4>
-        <ul>
-          <li ng-repeat="strength in girl.strengths">{{strength}}</li>
-        </ul>
-        <h4>Weaknesses</h4>
-        <ul>
-          <li ng-repeat="weakness in girl.weaknesses">{{weakness}}</li>
-        </ul>
+      <div class="col-md-6">
+        <text-profile ng-show="index % 2 == 0"></text-profile>
+        <photo-profile ng-show="index % 2 == 1"></photo-profile>
       </div>
-    </div>
+      <div class="col-md-6">
+        <photo-profile ng-show="index % 2 == 0"></photo-profile>
+        <text-profile ng-show="index % 2 == 1"></text-profile>
+      </div>
 
+    </div>
   </div>
 
   <div class="footer">
@@ -99,6 +74,7 @@
   </div>
 
 </div>
+
 
 
 

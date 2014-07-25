@@ -29,7 +29,14 @@ angular.module('gemsApp', [])
       console.log('Failed to retrieve profiles.');
     });
 
-//    $scope.profile.gemma =
-//      console.log($scope.profile.gemma);
-
-  }]);
+  }]).directive('textProfile', function(){
+      return {
+        restrict : 'E',
+        templateUrl : 'views/profiles/text.html'
+      }
+    }).directive('photoProfile', function(){
+      return {
+        restrict : 'E',
+        templateUrl : 'views/profiles/photo.html'
+      }
+    });
