@@ -7,6 +7,68 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @include font-face(bluheadstudio, 'fonts/BluHeadStudio');
 @include font-face(blambot, 'fonts/BlambotBold');
 
+@-webkit-keyframes drop-arrow-loop {
+  0% {
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0
+  }
+  20% {
+    opacity: 1
+  }
+  40% {
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px)
+  }
+  50% {
+    opacity: 1
+  }
+  100% {
+    -webkit-transform: translateY(90px);
+    -ms-transform: translateY(90px);
+    transform: translateY(90px);
+    opacity: 0
+  }
+}
+
+@-moz-keyframes drop-arrow-loop {
+  from {
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 1
+  }
+  to {
+    -webkit-transform: translateY(90px);
+    -ms-transform: translateY(90px);
+    transform: translateY(90px);
+    opacity: 0
+  }
+}
+
+@keyframes drop-arrow-loop {
+  from {
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 1
+  }
+  to {
+    -webkit-transform: translateY(90px);
+    -ms-transform: translateY(90px);
+    transform: translateY(90px);
+    opacity: 0
+  }
+}
+
+
+
+html, body, .home {
+  height: 100%;
+}
+
 body {
   background: #000;
 }
@@ -64,11 +126,32 @@ body {
     color: #fff;
     font-size: 14px;
   }
+  .scroll-indicator {
+    background: url('images/intro-icon-scrolldown.png') no-repeat 0 0;
+    height: 141px;
+    width: 131px;
+    margin: 0 auto;
+    bottom: 0px;
+    position: absolute;
+    left: 65px;
+    right: 65px;
+
+    .down-arrow {
+      background: url('images/intro-icon-scrolldown-arrow.png') no-repeat center center;
+      height: 19px;
+      position: absolute;
+      width: 100%;
+      -webkit-animation: drop-arrow-loop 1.8s infinite;
+      -moz-animation: drop-arrow-loop 1.8s infinite;
+      animation: drop-arrow-loop 1.8s infinite;
+    }
+  }
 }
 
 .story {
   background : url('images/sincity-bg.jpg') no-repeat 0 0;
   background-size: cover;
+  padding: 10% 0;
 
   h3 {
     text-align: center;
