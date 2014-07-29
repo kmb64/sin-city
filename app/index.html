@@ -11,7 +11,7 @@
 
   <script src="../bower_components/modernizr/modernizr.js"></script>
 </head>
-<body ng-app="gemsApp" ng-controller="profileCtrl">
+<body ng-app="gemsApp" ng-controller="profileCtrl" id="skrollr-body">
 
 <div class="home">
   <div class="container-fluid">
@@ -28,6 +28,7 @@
         <div class="down-arrow"></div>
       </div>
     </div>
+    <div class="film-rating"></div>
   </div>
 </div>
 
@@ -39,7 +40,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h3>For the second year in a row, Gemma will be having a massive birthday weekend here in Melbourne.
+        <h3 data-500-top="opacity: 0;" data-200-top="opacity: 1;">For the second year in a row, Gemma will be having a massive birthday weekend here in Melbourne.
           Things will kick off on Friday night with a relatively big night at "The Long Room" in the CBD. Saturday night
           will
           be even bigger and most likely end up at at KFC on Chapel St. Saving the best to last we will be hitting the
@@ -116,7 +117,14 @@
 
 <script>
   window.onload = function () {
-//    var s = skrollr.init({});
+
+    var s = skrollr.init({
+      forceHeight: false
+    });
+
+    if (s.isMobile()){
+      s.destroy();
+    }
   }
 </script>
 

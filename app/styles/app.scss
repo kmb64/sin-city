@@ -80,6 +80,19 @@ body {
   padding-right: 15px;
 }
 
+.home {
+  .film-rating {
+    display: none;
+    background: url('images/film-rating.png') center center no-repeat;
+    background-size: cover;
+    width: 153px;
+    height: 65px;
+    position:absolute;
+    left: 15px;
+    bottom: 15px;
+  }
+}
+
 .row {
   margin : 15px 0 15px 0;
    div {
@@ -223,6 +236,12 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+  .home {
+    .film-rating {
+      display: block;
+    }
+  }
+
   .slide-title {
     h2 {
       font-size: 30px;
