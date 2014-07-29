@@ -116,16 +116,17 @@
 <script src="../bower_components/skrollr/dist/skrollr.min.js"></script>
 
 <script>
-  window.onload = function () {
 
+  window.onload = function() {
     var s = skrollr.init({
       forceHeight: false
     });
 
-    if (s.isMobile()){
+    if (s.isMobile()) {
       s.destroy();
     }
   }
+
 </script>
 
 

@@ -63,14 +63,15 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
   }
 }
 
-
-
 html, body, .home {
   height: 100%;
 }
 
 body {
   background: #000;
+  img {
+    margin: 0 auto;
+  }
 }
 
 .header,
