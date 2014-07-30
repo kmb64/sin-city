@@ -13,9 +13,23 @@
       "strengths" : ["Cutting shapes","Cooking mass brekkies even when hungover", "Dance offs"],
       "weaknesses" : ["Talks super fast when excited"],
       "photo" : "images/jess.jpg"
+    },
+	{
+      "name" : "Rena",
+      "description" : "From Taupiri so you know she's gunna be a good time. Harry Potter and Kathmandu enthusiest. Practices country music in front of the mirror in her spare time.",
+      "strengths" : ["Harry Potter quizes", "Cooking bacon and eggs for dinner", "Tweeting about Taylor Swift"],
+      "weaknesses" : ["Tinder matches", "Keeping her room tidy"],
+      "photo" : "images/rena.jpg"
     }
   ],
   "boys" : [
+	{
+      "name" : "Karl",
+      "description" : "King of the house and leader of the wolf pack. I will be making sure no one steps out've line this weekend. Watchout!",
+      "strengths" : ["Too many to list"],
+      "weaknesses" : ["n/a"],
+      "photo" : "images/karl.jpg"
+    },
     {
       "name" : "Geng",
       "description" : "Bitv a legend for dropping outv high school halfway through third form but still landing a legit job as an electrical engineer. Got his first full back tatt at the age of 10 and collects tropical fish in his spare time. Really looking to seeing what level of value he will provide on the wine tour if especially.",
@@ -32,4 +46,3 @@
     }
   ]
 }
-
