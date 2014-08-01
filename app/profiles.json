@@ -27,6 +27,13 @@
       "strengths": ["Organizing China town dinners", "Music festivals", "Being loud"],
       "weaknesses": ["Spitting", "locking herself out of our apartment"],
       "photo": "images/rhi.jpg"
+    },
+    {
+      "name" : "L.G.",
+      "description" : "This brand new school teacher/silent assassin has come back to Melbourne for more! Will no doubt provide some good value this weekend. Being around us won't be much different to being in her classroom...",
+      "strengths" : ["Library shelving expert","collecting small stray animals", "Potential for 0% - 100% loosenes in under 5 min (2nd only to bernie)", "blue turtle juice"],
+      "weaknesses" : ["blue turtle juice", "hedgehogs getting in the way of her spew", "whiny crybaby boyfriend"],
+      "photo" : "images/lg.jpg"
     }
   ],
   "boys": [
