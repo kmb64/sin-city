@@ -41,7 +41,15 @@
       "strengths" : ["Organizing the troops", "Recently bought a house like a boss!", "Blonde curly locks"],
       "weaknesses" : ["Horse fettish", "Chihuahua fettish", "keg stands", "wearing moko tatts when shes clearly white"],
       "photo" : "images/butta.jpg"
+    },
+    {
+      "name" : "Eve",
+      "description" : "Another ruthless bitch on the d-floor, Eve is always ready for a big night. Reckons she knows how to poach some eggs but still yet too witness...",
+      "strengths" : ["Always bring rounds treatys", "slaps bernie in the face", "getting into clubs and making the boys pay"],
+      "weaknesses" : ["too sexy for her pants", "eating chocolate (marvelous creations)", "turning up on wine tour on time or did she..."],
+      "photo" : "eve.jpg"
     }
+
   ],
   "boys": [
     {
