@@ -2,97 +2,200 @@
   "girls": [
     {
       "name": "Gemma",
-      "description": "The birthday girl her self! Very excited about the wine tour this year after recently acquiring a strong appreciation for pinot noir and will be as partying as hard as anyone if not the hardest! Just don’t get in her way when shes eating cheese burgers or she’ll bite your face off.",
-      "strengths": ["Partying", "Heating up frozen sausie rolls and party pies", "Smashing shot glasses on bars"],
-      "weaknesses": ["Falling over for no reason", "Smashing her iPhone screen"],
+      "description": "The birthday girl herself! Very excited for her 3rd birthday bender in Melbourne. It will be interesting to see if her phone screen can survive the first night without her smashing it.",
+      "strengths": [
+          "Her boyfriend",
+          "Partying",
+          "Heating up frozen sausie rolls and party pies",
+          "Smashing shot glasses on bars",
+          "Being a camp mum"
+      ],
+      "weaknesses": [
+          "Falling over for no reason",
+          "Smashing her iPhone screen",
+          "Shrinking her clothes in the wash"
+      ],
       "photo": "images/gem.jpg"
     },
     {
-      "name": "Jess",
-      "description": "If anyone will be able to keep up with Gemma’s pace this weekend it will be Jess. Ruthless and aggressive on the d floor and an epic party starter. Cooks mean as feeds and knows how to make amazing cocktails.",
-      "strengths": ["Cutting shapes", "Cooking mass brekkies even when hungover", "Dance offs"],
-      "weaknesses": ["Talks super fast when excited"],
-      "photo": "images/jess.jpg"
-    },
-    {
-      "name": "Rena",
-      "description": "From Taupiri so you know she's gunna be a good time. Harry Potter and Kathmandu enthusiest. Practices country music in front of the mirror in her spare time.",
-      "strengths": ["Harry Potter quizes", "Cooking bacon and eggs for dinner", "Tweeting about Taylor Swift"],
-      "weaknesses": ["Tinder matches", "Keeping her room tidy"],
+      "name": "Rina",
+      "description": "From Taupiri so you know she's gunna be a good time. Harry Potter and Kathmandu enthusiast. Practices country music in front of the mirror in her spare time.",
+      "strengths": [
+          "Harry Potter quizes",
+          "Cooking bacon and eggs for dinner",
+          "Tweeting about Taylor Swift"
+      ],
+      "weaknesses": [
+          "Collecting stars",
+          "Keeping her room tidy"
+      ],
       "photo": "images/rena.jpg"
     },
     {
       "name": "Rhi",
-      "description": "Specailizes at getting the party started by playing a pharrell song. Really good at cutting shapes at festivals. Also good at cooking feeds and tidying up our house and reorganizing cupboards.",
-      "strengths": ["Organizing China town dinners", "Music festivals", "Being loud"],
-      "weaknesses": ["Spitting", "locking herself out of our apartment"],
+      "description": "Specializes at getting the party started by playing a pharrell song. Really good at cutting shapes at festivals. Also good at cooking feeds and tidying up our house and reorganizing cupboards.",
+      "strengths": [
+          "Organizing China town dinners and Austraila day weekend",
+          "Music festivals",
+          "Being loud"
+      ],
+      "weaknesses": [
+          "Spitting on strangers",
+          "Locking herself out of our apartment",
+          "Getting lost at the train station",
+          "Crying"
+      ],
       "photo": "images/rhi.jpg"
     },
-    {
-      "name" : "L.G.",
-      "description" : "This brand new school teacher/silent assassin has come back to Melbourne for more! Will no doubt provide some good value this weekend. Being around us won't be much different to being in her classroom...",
-      "strengths" : ["Library shelving expert","collecting small stray animals", "Potential for 0% - 100% loosenes in under 5 min (2nd only to bernie)", "blue turtle juice"],
-      "weaknesses" : ["blue turtle juice", "hedgehogs getting in the way of her spew", "whiny crybaby boyfriend"],
-      "photo" : "images/lg.jpg"
-    },
-    {
-      "name" : "Butta",
-      "description" : "With this her first trip to Melbourne, the pressure will be on the for her to keep up. But we've heard she knows how to sink a few rums and do a sneaky keg stand... we're looking forward to what she has to offer!",
-      "strengths" : ["Organizing the troops", "Recently bought a house like a boss!", "Blonde curly locks"],
-      "weaknesses" : ["Horse fettish", "Chihuahua fettish", "keg stands", "wearing moko tatts when shes clearly white"],
-      "photo" : "images/butta.jpg"
-    },
-    {
-      "name" : "Eve",
-      "description" : "Another ruthless bitch on the d-floor, Eve is always ready for a big night. Reckons she knows how to poach some eggs but still yet too witness...",
-      "strengths" : ["Always bring rounds treatys", "slaps bernie in the face", "getting into clubs and making the boys pay"],
-      "weaknesses" : ["too sexy for her pants", "eating chocolate (marvelous creations)", "turning up on wine tour on time or did she..."],
-      "photo" : "eve.jpg"
-    }
+      {
+          "name": "Leish",
+          "description": "What a joker! Always brings the party and good jokes (most of the time).",
+          "strengths": [
+              "Getting turnt",
+              "Doing crazy poses",
+              "Twerking",
+              "Having a meme/giffy for every possible situation",
+              "Winning rap/dance battles"
+          ],
+          "weaknesses": [
+              "Not twerking enough",
+              "Getting too many strikes for bad jokes"
+          ],
+          "photo": "images/leish.jpg"
+      },
+      {
+          "name": "Bridget",
+          "description": "Everyone loves Bridgee poose! Always brings over the best snacks and probably has the most interesting work stories.After missing the last couple of years, we are expecting big things, no pressure!",
+          "strengths": [
+              "Looking after Hayley",
+              "Cooking and making the best food including home made sausage rolls.",
+              "Popping bottles",
+              "Likes oysters"
+          ],
+          "weaknesses": [
+              "Keeping the house secure from strange men breaking in (Bernie)"
+          ],
+          "photo": "images/bridget.jpg"
+      },
+      {
+          "name": "Hayley",
+          "description": "Also Hayley's first August bender so I'm sure she will bring some good laughs if she can stay awake.",
+          "strengths": [
+              "Being one of the last ones standing (Because she's had a sleep in the club)",
+              "Turning up!"
+          ],
+          "weaknesses": [
+              "Unsupervised cooking",
+              "Straya",
+              "Taking naps in the club!"
+          ],
+          "photo": "images/hayley.jpg"
+      },
+
+      {
+          "name": "Kayla",
+          "description": "Apparently she is just coming off dry July so might need to keep an eye on this one!",
+          "strengths": [
+              "Jogging",
+              "Meeting boys while stumbling home",
+              "Drinking gin with the 'sittahs'"
+          ],
+          "weaknesses": [
+              "Anything more than a couple of drinks!",
+              "Has a Kim Kardashian crying face"
+          ],
+          "photo": "images/kayla.jpg"
+      }
 
   ],
   "boys": [
     {
       "name": "Karl",
-      "description": "King of the house and leader of the wolf pack. I will be making sure no one steps out've line this weekend. Watchout!",
-      "strengths": ["Too many to list"],
-      "weaknesses": ["n/a"],
+      "description": "King of all thugs and leader of the wolf pack. I will be making sure no one steps out of line this weekend. Watch out!",
+      "strengths": [
+          "Not enough space left in the cloud to list them all"
+      ],
+      "weaknesses": [
+          "Getting full zombie mode while drinking",
+          "Buying family packs at KFC"
+      ],
       "photo": "images/karl.jpg"
     },
     {
-      "name": "Geng",
-      "description": "Bitv a legend for dropping outv high school halfway through third form but still landing a legit job as an electrical engineer. Got his first full back tatt at the age of 10 and collects tropical fish in his spare time. Really looking to seeing what level of value he will provide on the wine tour..",
-      "strengths": ["Decent shit talk", "Seasoned masterfoods chicken seasoner", "Motorcyclist"],
-      "weaknesses": ["Chronic yellow rice addiction", "Rogan death", "Sunlight"],
-      "photo": "images/geng.jpg"
-    },
-    {
-      "name": "Corey",
-      "description": "Barefooted dirt bike riding lady killer from kihikihi. Currently dealing cards like a pro at crown casino perth im sure hes got some new tricks up his sleeves. General g.c. ",
-      "strengths": ["Dissing jon (is it still in my back?)", "Throwing bannanas at unsuspecting cyclists", "Lemoning", "Different colour eyes", "American sports stats"],
-      "weaknesses": ["Crash Team Racing", "Lives in WA", "Hot chick judgement from a distance"],
-      "photo": "images/corey.jpg"
-    },
-    {
       "name": "Bernie",
-      "description": "Easily talks the most bs out've anyone and in a league of his own when it comes to being the drunkest person out and about in melbourne. Has the ablility to go from stone cold sober to running out around naked throwing skate boards at windows in less than 10 minutes. Highly likely to be a good source of entainment throughout the weekend.",
-      "strengths": ["Being a piece", "Navigating complicated subways in HongKong while on tinder", "demolishing large amounts of food"],
-      "weaknesses": ["Meaningful conversation", "getting let into bars", "not being a piece"],
+      "description": "Easily talks the most bull shit out of anyone and in a league of his own when it comes to being the drunkest person out and about in Melbourne.Has the ability to go from stone cold sober to running out around naked throwing skate boards at windows in less than 10 minutes.Highly likely to be a good source of entertainment throughout the weekend.",
+      "strengths": [
+          "Breaking into Bridget and Hayley's house to make them garlic bread",
+          "Being a piece",
+          "Navigating complicated subways in Hong Kong while on tinder",
+          "Demolishing large amounts of food",
+          "Talking to poles",
+          "Having nice sliders"
+      ],
+      "weaknesses": [
+          "Meaningful conversation",
+          "Getting let into bars",
+          "Not being a piece",
+          "Making it to Stereosonic",
+          "Losing phones and wallets",
+          "Deeezzze nutz, HAA!"
+      ],
+
+        "bernieCrying" : true,
+
       "photo": "images/bernie.jpg"
     },
     {
       "name": "Luca",
-      "description": "Already a legend just from being from raglan. Bit of a ninja on the playstation and will eat anything with white bread.",
-      "strengths": ["Fishing for yabbies", "GTA"],
-      "weaknesses": ["White bread", "Staying up late on school nights"],
+      "description": "All round GC. Works the hardest and longest out of all the boys.",
+      "strengths": [
+          "Finding funny shit on facebook",
+          "GTA and playstation in general"
+      ],
+      "weaknesses": [
+          "White bread and fanta",
+          "Staying up late on school nights",
+          "Being on time because he lives out in the burbs"
+      ],
       "photo": "images/luca.jpg"
     },
     {
-      "name": "B.C.",
-      "description": "Ben is back for a second year in a row and ready to get on it! Expect him to be on the table tennis table full time and dominating card drinking games like a boss.",
-      "strengths": ["Raquet sports", "Slip n slides", "tequila shots", "Shooting zombies"],
-      "weaknesses": ["tequila shots", "Believing stuff bernie says", "Keeping a straight face"],
-      "photo": "images/bc.jpg"
-    }
+      "name": "Mitch",
+      "description": "Loves a couple beers and hanging out with the boys. Reasonable chat when hes not too grumpy or busy tanning his eyelids.Failed to make the wine tour last year so expecting big things to make up for it this time round.",
+      "strengths": [
+          "Rugby and touch - just made the NRC!",
+          "Swiping on Tinder",
+          "Snapchatting",
+          "Looking like a thug in his ute",
+          "Racing scooters in Bali",
+          "Nice boooddddeee!"
+      ],
+      "weaknesses": [
+          "Using computers",
+          "Ordering meals",
+          "Wing dome in Bali",
+          "Being creepy Mitch (could also come under strengths)"
+      ],
+      "photo": "images/mitch.jpg"
+    },
+      {
+          "name": "Horse",
+          "description": "All round thug. Loves a good laugh and always up for a few.",
+          "strengths": [
+              "Putting bets on shit and actually winning",
+              "Pokies",
+              "Being a thug",
+              "Spending cash",
+              "Crashing on our couch",
+              "Making sure the show goes on"
+          ],
+          "weaknesses": [
+              "From Dunedin",
+              "Talking after a few beers",
+              "Throwing tin around",
+              "Old Dave's facebook comments"
+          ],
+          "photo": "images/horse.jpg"
+      }
   ]
 }

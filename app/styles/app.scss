@@ -116,7 +116,7 @@ body {
 }
 
 .slide-title {
-  background: #fa0f4a;
+  background: #8e00fa;
   h2 {
     font-family: blambot;
     color: #fff;
@@ -200,9 +200,16 @@ body {
     }
     h4 {
       display: inline-block;
-      background: #fa0f4a;
+      background: #8e00fa;
       padding: 6px;
     }
+      a {
+          color : #8e00fa;
+          text-decoration: none;
+          &:visited, &:hover, &:active {
+              color : #8e00fa;
+          }
+      }
   }
 }
 
