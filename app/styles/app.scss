@@ -3,8 +3,8 @@ $icon-font-path: 'fonts/bootstrap/';
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 @import 'bourbon';
 
-@include font-face(sincity, 'fonts/Sin City');
-@include font-face(bluheadstudio, 'fonts/BluHead StudioChurchward');
+@include font-face(sincity, 'fonts/SinCity');
+@include font-face(bluheadstudio, 'fonts/BluHeadStudioChurchward');
 @include font-face(blambot, 'fonts/BlambotBold');
 
 @-webkit-keyframes drop-arrow-loop {

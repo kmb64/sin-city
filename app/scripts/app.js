@@ -3,7 +3,7 @@ angular.module('gemsApp', [])
     return function () {
       var getProfiles = function () {
 
-        return $http({method: 'GET', url: '/profiles.json'}).
+        return $http({method: 'GET', url: 'profiles.json'}).
           success(function (data, status, headers, config) {
             return angular.fromJson(data);
           }).

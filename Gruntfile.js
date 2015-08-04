@@ -332,10 +332,14 @@ module.exports = function (grunt) {
             dest: '<%= config.dist %>',
             src: [
               '*.{ico,png,txt}',
-              '.htaccess',
               'images/{,*/}*.webp',
               '{,*/}*.html',
-              'styles/fonts/{,*/}*.*'
+              'styles/{,*/}*.*',
+                'profiles.json',
+                'scripts/{,*/}*.*',
+                'views/{,*/}*.*',
+                'media/{,*/}*.*',
+                'favicon.ico'
             ]
           },
           {
